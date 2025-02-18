@@ -77,13 +77,17 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          <Image
-            src="/images/hero-image.jpg"
-            alt="美しい観光地の風景"
-            fill
-            style={{ objectFit: "cover" }}
-            quality={100}
-          />
+          {/* 動画を追加 */}
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="absolute inset-0 w-full h-full object-cover"
+          >
+            <source src="/videos/hero-video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </motion.div>
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
           <motion.h1
