@@ -39,3 +39,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# 画像ディレクトリを無視
+tourist-destination/public/images/
+
+# その他の個人情報関連ファイル例
+.env.local
+config/secrets.yml
+*.key
+*.cert
+.DS_Store
+*.log
+tmp/
+node_modules/
