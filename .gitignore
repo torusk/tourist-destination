@@ -41,7 +41,7 @@ yarn-error.log*
 next-env.d.ts
 
 # 画像ディレクトリを無視
-tourist-destination/public/images/
+public/images/
 
 # その他の個人情報関連ファイル例
 .env.local
