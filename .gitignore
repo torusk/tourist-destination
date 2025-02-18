@@ -43,6 +43,9 @@ next-env.d.ts
 # 画像ディレクトリを無視
 public/images/
 
+# 動画ディレクトリを無視
+public/videos/
+
 # その他の個人情報関連ファイル例
 .env.local
 config/secrets.yml
