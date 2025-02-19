@@ -245,7 +245,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            今すぐ予約して、一生に一度の休暇を体験しましょう！
+            一生に一度の休暇を体験しましょう！
           </motion.p>
           <motion.button
             className="bg-white text-purple-600 font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition duration-300"
@@ -256,7 +256,7 @@ export default function Home() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            今すぐ予約
+            訪問に感謝！
           </motion.button>
         </div>
       </section>
